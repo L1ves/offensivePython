@@ -1,2 +1,2 @@
 # stuserv
-Tcp &amp; Udp server for pentester on python
+Tcp &amp; Udp client & server for pentester on python

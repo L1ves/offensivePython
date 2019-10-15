@@ -1,7 +1,7 @@
-#simple TCP server 1
+#simple TCP client 1
 import socket
 
-target_host = "cyber-danger.ru"
+target_host = "adress.com"
 target_port = 80
 
 #create socket object
@@ -13,7 +13,7 @@ client.connect((target_host, target_port))
 
 #send some data
 
-client.send("GET / HTTP/1.1\r\nHost: cyber-danger.ru\r\n\r\n".encode())
+client.send("GET / HTTP/1.1\r\nHost: adress.com\r\n\r\n".encode())
 
 #recieve some data 
 response = client.recv(4096)
