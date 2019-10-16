@@ -1,8 +1,8 @@
 #simple TCP client 1
 import socket
 
-target_host = "adress.com"
-target_port = 80
+target_host = "0.0.0.0"
+target_port = 31337
 
 #create socket object
 
